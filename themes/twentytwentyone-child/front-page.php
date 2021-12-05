@@ -22,6 +22,24 @@ get_header(); ?>
 	</header><!-- .page-header -->
 <?php endif; ?>
 <h2>XXXXXXXXXXXXXXXXXXXXXXXX</h2>
+
+<!-- WP_Query to get post info  -->
+<?php
+
+
+$post_args = array(
+	'post_type' => 'post',
+	'post_status',
+	'post_per_page'
+);
+
+$post_query = new WP_Query( $post_args );
+
+
+
+
+?>
+
 <?php
 if ( have_posts() ) {
 
