@@ -26,19 +26,29 @@ get_header(); ?>
 <!-- WP_Query to get post info  -->
 <?php
 
-
 $post_args = array(
 	'post_type' => 'post',
-	'post_status',
-	'post_per_page'
+	'post_status' => 'published',
+	'posts_per_page' => 4
 );
 
 $post_query = new WP_Query( $post_args );
 
+if($post_query -> have_posts()){
+	while($post_query -> have_posts()){
+		$post_query->the_post();
 
-
+		the_post_thumbnail();
+		the_permalink();
+		the_title();
+		the_excerpt();
+	}
+}
 
 ?>
+
+
+<h2>XXXXXXXXXXXXXXXXXXXXXXXX</h2>
 
 <?php
 if ( have_posts() ) {
