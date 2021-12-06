@@ -1,10 +1,96 @@
 .posts_container {
   width: 50rem;
   margin: auto;
+  margin-top: -15rem;
 }
 
 .posts_container img {
   width: 50rem;
   margin-top: 6rem;
   margin-bottom: 2rem;
+}
+
+.posts_container p {
+  font-size: 1.5rem;
+}
+
+.posts_container h3 {
+  font-weight: 900;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+body {
+  background-color: white;
+}
+
+.site-title {
+  font-weight: 900;
+}
+
+.site-title a {
+  font-weight: 900;
+}
+
+.entry-content h2 {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.entry-title a {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.entry-content p {
+  font-size: 1.5rem;
+}
+
+.widget-area .wp-block-latest-posts > li > a {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.wp-block-search .wp-block-search__label {
+  font-size: 1rem;
+}
+
+.cat-item {
+  margin-top: -0.8rem;
+}
+
+.site-footer > .site-info .site-name {
+  font-weight: 900;
+}
+
+.powered-by {
+  font-size: 0.8rem;
+}
+
+.pagination .nav-links > *.current {
+  font-weight: 900;
+}
+
+.nav-next-text {
+  font-size: 1rem;
+}
+
+.nav-prev-text {
+  font-size: 1rem;
+}
+
+.primary-navigation-open .primary-navigation > .primary-menu-container {
+  background-color: white;
+}
+
+.primary-navigation-open .menu-button-container {
+  background-color: white;
+}
+
+.sub-menu {
+  background-color: white;
+}
+
+.menu-button-container #primary-mobile-menu .dropdown-icon {
+  background-color: white;
 }
