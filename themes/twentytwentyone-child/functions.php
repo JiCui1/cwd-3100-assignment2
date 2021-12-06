@@ -27,7 +27,7 @@ function twentytwentyonechild_wp_enqueue_scripts() {
 
     wp_enqueue_style( 
         'custom-css-style', 
-        get_stylesheet_directory_uri() . '/assets/css/test.css'
+        get_stylesheet_directory_uri() . '/assets/css/other-style.css'
     );
 }
 

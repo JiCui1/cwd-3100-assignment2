@@ -25,10 +25,10 @@ while ( have_posts() ) :
 endwhile; // End of the loop. 
 ?>
 
-<h2>XXXXXXXXXXXXXXXXXXXXXXXX</h2>
 
 <?php
 
+custom_post_query();
 get_footer();
 
 ?>
