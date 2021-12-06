@@ -28,4 +28,7 @@ function twentytwentyonechild_wp_enqueue_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'twentytwentyonechild_wp_enqueue_scripts' );
 
+// Custom template tags for the theme.
+require get_stylesheet_directory() . '/inc/template-tags.php';
+
 ?>
