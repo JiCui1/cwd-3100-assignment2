@@ -21,17 +21,10 @@ get_header(); ?>
 		<h1 class="page-title"><?php single_post_title(); ?></h1>
 	</header><!-- .page-header -->
 <?php endif; ?>
-<h2>XXXXXXXXXXXXXXXXXXXXXXXX</h2>
-
-<!-- WP_Query to get post info  -->
-<?php
-
-custom_post_query();
-
-?>
 
 
-<h2>XXXXXXXXXXXXXXXXXXXXXXXX</h2>
+
+
 
 <?php
 if ( have_posts() ) {
@@ -53,4 +46,14 @@ if ( have_posts() ) {
 
 }
 
+?>
+ <!-- WP_Query to get post info  -->
+<?php
+
+custom_post_query();
+
+
+
 get_footer();
+
+?>

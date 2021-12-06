@@ -1,0 +1,10 @@
+.posts_container {
+  width: 50rem;
+  margin: auto;
+}
+
+.posts_container img {
+  width: 50rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
