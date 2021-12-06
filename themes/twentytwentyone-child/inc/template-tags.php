@@ -18,7 +18,11 @@ function custom_post_query(){
             the_title();
             the_excerpt();
         }
+
+
+        wp_reset_postdata();
     }
+
 }
 
 
